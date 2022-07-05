@@ -24,6 +24,10 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <UsersList users={users}/>
+                <button type="button"
+                        className="inline-block px-6 py-3 font-bold text-center text-pink-700 uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-fuchsia leading-pro text-size-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-102 active:opacity-85 hover:shadow-soft-xs">Button
+                </button>
+
                 <img src={logo} className="App-logo" alt="logo"/>
                 <p>
                     Edit <code>src/App.js</code> and save to reload.
